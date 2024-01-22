@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@700&family=Inconsolata:wght@300&family=Inknut+Antiqua&family=Inter&display=swap');
+
+.nav-panel {
+    width: 300px;
+    height: 300px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+.nav-panel img {
+    height: 180px;
+    width: auto;
+    border-radius: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-panel h1{
+    font-family: 'Inknut Antiqua', serif;
+    text-align: center;
+    font-size: 32px;
+    line-height: normal;
+    margin: 0px;
+}
+
+.nav-list {
+    width: 262px;
+    list-style-type: none;
+    margin: -2px;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    gap: 10px;
+    justify-content: center;
+    line-height: 15px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
+.active, .nav-list a:hover{
+    text-decoration: underline;
+    font-style: italic;
+}

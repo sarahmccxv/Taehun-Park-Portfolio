@@ -1,0 +1,22 @@
+.Contact {
+    height: 100vh;
+    margin: 0px;
+    width: 100%;
+    padding-left: 5%;
+}
+
+.Contact p {
+    display: block;
+    font-family: 'Inconsolata', monospace;
+    font-size: 26px;
+    width: 700px;
+}
+
+.Contact h1{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 48px;
+}
+
+.Contact .content {
+    padding-top: 28%;
+}
